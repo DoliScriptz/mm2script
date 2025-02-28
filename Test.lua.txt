@@ -1,0 +1,46 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
+local Flags = Library.Flags
+--Library.DefaultColor = Color3.fromRGB(65, 143, 232)
+
+local Window = Library:Window({
+   Text = "Main Menu"
+})
+
+local Window2 = Library:Window({
+    Text = "Others"
+ })
+
+Window:Toggle({
+   Text = "Dupe",
+   Callback = function()
+       print("Wait 7 Minutes before using nigger")
+   end
+})
+
+Window:Toggle({
+    Text = "ONLY WITH GOLDYS OR ELSE WONT WORK WITH SHITS THINGS",
+    Callback = function()
+        print("Wait 7 Minutes before using nigger i told you already")
+    end
+ })
+ 
+ Window:Toggle({
+    Text = "Trade Scam",
+    Callback = function()
+        print("Wait 7 Minutes before using nigger")
+    end
+ })
+
+ Window:Toggle({
+    Text = "Freeze Shit",
+    Callback = function()
+        print("Wait 7 Minutes before using nigger")
+    end
+ })
+ 
+ Window2:Toggle({
+    Text = "If the Shit aint Working check ma yt vid nigger",
+    Callback = function()
+        setclipboard("https://www.youtube.com/@FUsescripts/videos")
+    end
+ })
